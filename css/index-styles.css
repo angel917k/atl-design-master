@@ -120,10 +120,10 @@ body{
   padding-top: 160px;
 }
 
-.large p{
-  color:#6495ED;
-  font-size: 15px;
-  font-family: 'Vollkorn SC', serif;
+.large div span {
+color:#00ffcc;
+font-size: 15px;
+font-family: 'Vollkorn SC', serif;
 }
 
 
