@@ -135,7 +135,7 @@ body{
   width:55px;
   background-color: #fff;
   border-radius: 300px;
-  animation:fade 6s infinite;
+  animation:fadea 6s infinite;
 }
 
 .small{
@@ -145,36 +145,63 @@ body{
   width: 40px;
   background-color: #fff;
   border-radius: 300px;
-  animation:fadea 6s infinite;
+  animation:fadeb 6s infinite;
 }
 
-@keyframes fade{
-  0%{
-    opacity:0;
+@keyframes fade {
+  0% {
+    opacity: 0;
   }
-  50%{
-    opacity:1;
+  40% {
+    opacity: 1;
   }
-  100%{
-    opacity:0;
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
-@keyframes fadea{
-  0%{
-    opacity:0;
+@keyframes fadea {
+  0% {
+    opacity: 0;
   }
-  20%{
-    opacity:0;
+  15% {
+    opacity: 0;
   }
-  40%{
-    opacity:1;
+  30% {
+    opacity: 1;
   }
-  60%{
-    opacity:0;
+  45% {
+    opacity: 1;
   }
-  100%{
-    opacity:0;
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeb {
+  0% {
+    opacity: 0;
+  }
+  22% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  57.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
